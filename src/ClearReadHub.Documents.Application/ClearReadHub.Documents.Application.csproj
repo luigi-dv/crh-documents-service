@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ClearReadHub.Documents.Application</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation" />
+        <PackageReference Include="FluentValidation.AspNetCore" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ClearReadHub.Documents.Contracts\ClearReadHub.Documents.Contracts.csproj" />
+        <ProjectReference Include="..\ClearReadHub.Documents.Domain\ClearReadHub.Documents.Domain.csproj" />
+    </ItemGroup>
+    
+</Project>

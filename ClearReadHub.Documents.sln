@@ -1,0 +1,82 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearReadHub.Documents.Domain", "src\ClearReadHub.Documents.Domain\ClearReadHub.Documents.Domain.csproj", "{5517E718-B401-4817-89AA-F854AC6477E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearReadHub.Documents.Infrastructure", "src\ClearReadHub.Documents.Infrastructure\ClearReadHub.Documents.Infrastructure.csproj", "{2C5E61FA-8043-4CD3-A6C6-2EE50E3991FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearReadHub.Documents.Service", "src\ClearReadHub.Documents.Service\ClearReadHub.Documents.Service.csproj", "{560008BF-40DC-438E-B76E-2959999C6A82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearReadHub.Documents.Application", "src\ClearReadHub.Documents.Application\ClearReadHub.Documents.Application.csproj", "{66C74177-5573-4E9A-97A4-476FAD6A1619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearReadHub.Documents.Contracts", "src\ClearReadHub.Documents.Contracts\ClearReadHub.Documents.Contracts.csproj", "{A6EAB832-0406-42CE-B7C0-7DACE9E67CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F69535A8-F47D-4F48-AEEF-175CDAD73459}"
+	ProjectSection(SolutionItems) = preProject
+		tests\.editorconfig = tests\.editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearReadHub.Documents.Service.IntegrationTests", "tests\ClearReadHub.Documents.Service.IntegrationTests\ClearReadHub.Documents.Service.IntegrationTests.csproj", "{5021A4E3-9A55-4589-9C9D-C84D642F1ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCommon", "tests\TestCommon\TestCommon.csproj", "{45A3F880-C122-467E-A783-14985E92EE44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearReadHub.Documents.Application.SubcutaneousTests", "tests\ClearReadHub.Documents.Application.SubcutaneousTests\ClearReadHub.Documents.Application.SubcutaneousTests.csproj", "{8C96C663-B7ED-4B74-BB78-8337F35AE6AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearReadHub.Documents.Application.UnitTests", "tests\ClearReadHub.Documents.Application.UnitTests\ClearReadHub.Documents.Application.UnitTests.csproj", "{513E19E6-8E46-4766-9C25-831B2B13ED77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearReadHub.Documents.Domain.UnitTests", "tests\ClearReadHub.Documents.Domain.UnitTests\ClearReadHub.Documents.Domain.UnitTests.csproj", "{94B2F88B-550C-4170-A465-7F41487AF4AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5517E718-B401-4817-89AA-F854AC6477E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5517E718-B401-4817-89AA-F854AC6477E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5517E718-B401-4817-89AA-F854AC6477E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5517E718-B401-4817-89AA-F854AC6477E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5E61FA-8043-4CD3-A6C6-2EE50E3991FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5E61FA-8043-4CD3-A6C6-2EE50E3991FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5E61FA-8043-4CD3-A6C6-2EE50E3991FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5E61FA-8043-4CD3-A6C6-2EE50E3991FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560008BF-40DC-438E-B76E-2959999C6A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560008BF-40DC-438E-B76E-2959999C6A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560008BF-40DC-438E-B76E-2959999C6A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560008BF-40DC-438E-B76E-2959999C6A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C74177-5573-4E9A-97A4-476FAD6A1619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C74177-5573-4E9A-97A4-476FAD6A1619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C74177-5573-4E9A-97A4-476FAD6A1619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C74177-5573-4E9A-97A4-476FAD6A1619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EAB832-0406-42CE-B7C0-7DACE9E67CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EAB832-0406-42CE-B7C0-7DACE9E67CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EAB832-0406-42CE-B7C0-7DACE9E67CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EAB832-0406-42CE-B7C0-7DACE9E67CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5021A4E3-9A55-4589-9C9D-C84D642F1ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5021A4E3-9A55-4589-9C9D-C84D642F1ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5021A4E3-9A55-4589-9C9D-C84D642F1ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5021A4E3-9A55-4589-9C9D-C84D642F1ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A3F880-C122-467E-A783-14985E92EE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A3F880-C122-467E-A783-14985E92EE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A3F880-C122-467E-A783-14985E92EE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A3F880-C122-467E-A783-14985E92EE44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C96C663-B7ED-4B74-BB78-8337F35AE6AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C96C663-B7ED-4B74-BB78-8337F35AE6AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C96C663-B7ED-4B74-BB78-8337F35AE6AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C96C663-B7ED-4B74-BB78-8337F35AE6AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513E19E6-8E46-4766-9C25-831B2B13ED77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513E19E6-8E46-4766-9C25-831B2B13ED77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513E19E6-8E46-4766-9C25-831B2B13ED77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513E19E6-8E46-4766-9C25-831B2B13ED77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B2F88B-550C-4170-A465-7F41487AF4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B2F88B-550C-4170-A465-7F41487AF4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B2F88B-550C-4170-A465-7F41487AF4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B2F88B-550C-4170-A465-7F41487AF4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5021A4E3-9A55-4589-9C9D-C84D642F1ABE} = {F69535A8-F47D-4F48-AEEF-175CDAD73459}
+		{45A3F880-C122-467E-A783-14985E92EE44} = {F69535A8-F47D-4F48-AEEF-175CDAD73459}
+		{8C96C663-B7ED-4B74-BB78-8337F35AE6AC} = {F69535A8-F47D-4F48-AEEF-175CDAD73459}
+		{513E19E6-8E46-4766-9C25-831B2B13ED77} = {F69535A8-F47D-4F48-AEEF-175CDAD73459}
+		{94B2F88B-550C-4170-A465-7F41487AF4AD} = {F69535A8-F47D-4F48-AEEF-175CDAD73459}
+	EndGlobalSection
+EndGlobal

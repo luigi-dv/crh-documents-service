@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentAssertions" />
+        <PackageReference Include="NSubstitute" />
+        <PackageReference Include="xunit" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\ClearReadHub.Documents.Domain\ClearReadHub.Documents.Domain.csproj" />
+        <ProjectReference Include="..\..\src\ClearReadHub.Documents.Application\ClearReadHub.Documents.Application.csproj" />
+        <ProjectReference Include="..\..\src\ClearReadHub.Documents.Infrastructure\ClearReadHub.Documents.Infrastructure.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Folder Include="TestUtilities\" />
+    </ItemGroup>
+
+</Project>
