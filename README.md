@@ -1,4 +1,5 @@
-# Clear Read Hub (CRH)
+# Clear Read Hub (CRH) | Documents Service
+[![.NET Build Solution](https://github.com/luigi-dv/crh-documents-service/actions/workflows/build-solution.yml/badge.svg)](https://github.com/luigi-dv/crh-documents-service/actions/workflows/build-solution.yml)
 [![License](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/luigi-dv/clear-read-hub)
 
 
